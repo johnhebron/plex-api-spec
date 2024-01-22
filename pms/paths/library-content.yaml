@@ -34,7 +34,7 @@ get:
         type: integer
     - name: tag
       in: path
-      required: true
+      required: false
       description: A key representing a specific tag within the section.
       schema:
         type: string
